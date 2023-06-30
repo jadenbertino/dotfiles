@@ -125,5 +125,4 @@ if [[ -f ~/.ssh/agent-env ]]; then
 fi
 
 # pull from github to get most up to date version of dotfiles
-echo "Pulling from github to get most up to date version of dotfiles. . ."
-git pull origin main
+alias getDotFiles='git fetch origin && git reset --hard origin/main'
