@@ -124,3 +124,6 @@ if [[ -f ~/.ssh/agent-env ]]; then
   . ~/.ssh/agent-env > /dev/null
 fi
 
+# pull from github to get most up to date version of dotfiles
+echo "Pulling from github to get most up to date version of dotfiles. . ."
+git pull origin main
