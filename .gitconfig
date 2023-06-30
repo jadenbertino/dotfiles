@@ -1,0 +1,17 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[alias]
+	sc = switch -c
+	cm = commit -m
+	acm = add . && commit -m
+	s = switch
+	bd = branch --delete
+[user]
+	email = jaden@ossagency.io
+	name = Jaden Bertino
+[init]
+	defaultBranch = main

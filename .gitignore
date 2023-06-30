@@ -1,0 +1,16 @@
+# Ignore everything
+/*
+
+# Except these files...
+
+# git
+!.gitignore
+!.gitconfig
+# DO NOT TRACK YOUR .SSH DIRECTORY!
+# IT CONTAINS SENSITIVE INFORMATION!
+
+# zsh
+!.zshrc
+
+# bash
+!.bashrc
